@@ -1,0 +1,75 @@
+body{
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin:0 auto;
+    padding: 0 16px;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:ghostwhite;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTtWJZEOHl2sxWUOOK1XAZz_4Unx9lt58emecHzdjQSZWuHXpS8&usqp=CAU");
+    background-repeat: no-repeat;
+    
+    background-size: 100%;
+  
+}
+
+.main-content{
+        flex-grow: 1; 
+}
+footer{
+    color: whitesmoke;
+    border-top:1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0px;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+
+    background: -webkit-linear-gradient(whitesmoke,black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header a{
+    color: honeydew;
+    margin-right: 16px;
+    text-decoration: none;
+
+}
+.portrait{
+    width: 25%;
+}
+
+input{
+    border: 1px solid  grey;
+    padding:8px;
+
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+
+
+}
+button{
+    cursor:pointer;
+    border:1px solid #888888;
+      background: #888888;
+      color:white;
+      padding: 8px;
+}
+p{
+    color:silver;
+}
